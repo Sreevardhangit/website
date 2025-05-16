@@ -17,3 +17,4 @@ console.log(b);
 
 let name1=Symbol("vardhan");//symbol
 console.log(name1);
+
