@@ -1,6 +1,6 @@
 //example 1
 if(true){
-    console.log("This condition is always true.");
+    console.log("This condition is true.");
 }
 
 //example 2
