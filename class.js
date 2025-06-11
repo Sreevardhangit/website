@@ -89,7 +89,7 @@
 
 class Details {
     constructor() {
-        this._S_name = 12;  // Use a private variable convention
+        this._S_name = "sree";
         this.S_id = "123";
     }
 
@@ -98,18 +98,12 @@ class Details {
     }
 
     set S_name(value) {
-        // if (typeof value === "string") {
-        //     this._S_name = value;
-        // } else {
-        //     console.log("You have entered wrong data type");
-        // }
         if (typeof value === "string" && /^[a-zA-Z]+$/.test(value)) {
             this._S_name = value;
         } else {
             console.log("Only alphabetic characters are allowed.");
         }
-        // this.S_name = String(value);
-    }
+        }
 }
 
 let rDetails = new Details();
